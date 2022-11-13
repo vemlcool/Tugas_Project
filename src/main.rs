@@ -6,8 +6,6 @@ use std::path::PathBuf;
 use structopt::StructOpt;
 use thiserror::Error;
 
-
-
 #[derive(Error,Debug)]
 enum ParseError{
     #[error("Input Tidak valid{0}")]
